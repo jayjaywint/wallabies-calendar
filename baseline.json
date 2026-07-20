@@ -1,0 +1,86 @@
+{
+  "_comment": "Tests that no public structured feed carries (e.g. Rugby Championship away kickoff times). The build merges these with whatever live competitions it auto-discovers for the current+next year. dateUtc is UTC; set allDay:true when the kickoff time isn't confirmed. FUTURE SEASONS: just append the new year's Tests to this same list as they're announced — the build shows current/upcoming matches and rolls old ones off automatically (no need to delete past seasons, though you can). If the live feed already carries a Test, the live version wins, so duplicates here are harmless.",
+  "matches": [
+    {
+      "id": "rc-japan-away",
+      "opponent": "Japan",
+      "homeAway": "away",
+      "competition": "Rugby Championship",
+      "venue": "Japan (venue TBC)",
+      "dateUtc": "2026-08-08",
+      "allDay": true,
+      "note": "Kickoff time not yet confirmed."
+    },
+    {
+      "id": "rc-japan-home",
+      "opponent": "Japan",
+      "homeAway": "home",
+      "competition": "Rugby Championship",
+      "venue": "Queensland Country Bank Stadium, Townsville",
+      "dateUtc": "2026-08-15 05:00:00Z",
+      "allDay": false,
+      "note": "KO 3:00pm AEST."
+    },
+    {
+      "id": "rc-argentina-away-1",
+      "opponent": "Argentina",
+      "homeAway": "away",
+      "competition": "Rugby Championship",
+      "venue": "Argentina (venue TBC)",
+      "dateUtc": "2026-08-29",
+      "allDay": true,
+      "note": "Kickoff time not yet confirmed."
+    },
+    {
+      "id": "rc-argentina-away-2",
+      "opponent": "Argentina",
+      "homeAway": "away",
+      "competition": "Rugby Championship",
+      "venue": "Argentina (venue TBC)",
+      "dateUtc": "2026-09-05",
+      "allDay": true,
+      "note": "Kickoff time not yet confirmed."
+    },
+    {
+      "id": "rc-southafrica-home",
+      "opponent": "South Africa",
+      "homeAway": "home",
+      "competition": "Rugby Championship",
+      "venue": "Optus Stadium, Perth",
+      "dateUtc": "2026-09-27 09:30:00Z",
+      "allDay": false,
+      "note": "KO 5:30pm AWST."
+    },
+    {
+      "id": "rc-newzealand-away",
+      "opponent": "New Zealand",
+      "homeAway": "away",
+      "competition": "Rugby Championship / Bledisloe Cup",
+      "venue": "New Zealand (venue TBC)",
+      "dateUtc": "2026-10-10",
+      "allDay": true,
+      "note": "Kickoff time not yet confirmed."
+    },
+    {
+      "id": "rc-newzealand-home",
+      "opponent": "New Zealand",
+      "homeAway": "home",
+      "competition": "Rugby Championship / Bledisloe Cup",
+      "venue": "Accor Stadium, Sydney",
+      "dateUtc": "2026-10-17 04:45:00Z",
+      "allDay": false,
+      "note": "KO 3:45pm AEDT."
+    },
+    {
+      "id": "nc-finals-weekend",
+      "opponent": "Nations Championship Finals",
+      "summary": "Nations Championship Finals Weekend (Wallabies if qualified)",
+      "homeAway": "away",
+      "competition": "Nations Championship Finals Weekend",
+      "venue": "Twickenham, London",
+      "dateUtc": "2026-11-28",
+      "allDay": true,
+      "note": "Finals weekend. Wallabies participation and exact fixture depend on final standings. Remove this line from baseline.json if you don't want the placeholder."
+    }
+  ]
+}
