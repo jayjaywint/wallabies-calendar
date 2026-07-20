@@ -6,10 +6,10 @@
       "opponent": "Japan",
       "homeAway": "away",
       "competition": "Rugby Championship",
-      "venue": "Japan (venue TBC)",
-      "dateUtc": "2026-08-08",
-      "allDay": true,
-      "note": "Kickoff time not yet confirmed."
+      "venue": "Hanazono Rugby Stadium, Higashiosaka, Japan",
+      "dateUtc": "2026-08-08 10:05:00Z",
+      "allDay": false,
+      "note": "KO 7:05pm JST."
     },
     {
       "id": "rc-japan-home",
@@ -17,29 +17,29 @@
       "homeAway": "home",
       "competition": "Rugby Championship",
       "venue": "Queensland Country Bank Stadium, Townsville",
-      "dateUtc": "2026-08-15 05:00:00Z",
+      "dateUtc": "2026-08-15 05:15:00Z",
       "allDay": false,
-      "note": "KO 3:00pm AEST."
+      "note": "KO 3:15pm AEST."
     },
     {
       "id": "rc-argentina-away-1",
       "opponent": "Argentina",
       "homeAway": "away",
       "competition": "Rugby Championship",
-      "venue": "Argentina (venue TBC)",
-      "dateUtc": "2026-08-29",
-      "allDay": true,
-      "note": "Kickoff time not yet confirmed."
+      "venue": "Estadio 23 de Agosto, Argentina",
+      "dateUtc": "2026-08-29 19:00:00Z",
+      "allDay": false,
+      "note": "KO 4:00pm (Argentina)."
     },
     {
       "id": "rc-argentina-away-2",
       "opponent": "Argentina",
       "homeAway": "away",
       "competition": "Rugby Championship",
-      "venue": "Argentina (venue TBC)",
-      "dateUtc": "2026-09-05",
-      "allDay": true,
-      "note": "Kickoff time not yet confirmed."
+      "venue": "Estadio Malvinas Argentinas, Mendoza, Argentina",
+      "dateUtc": "2026-09-05 21:00:00Z",
+      "allDay": false,
+      "note": "KO 6:00pm (Argentina)."
     },
     {
       "id": "rc-southafrica-home",
@@ -47,19 +47,19 @@
       "homeAway": "home",
       "competition": "Rugby Championship",
       "venue": "Optus Stadium, Perth",
-      "dateUtc": "2026-09-27 09:30:00Z",
+      "dateUtc": "2026-09-27 09:45:00Z",
       "allDay": false,
-      "note": "KO 5:30pm AWST."
+      "note": "KO 5:45pm AWST."
     },
     {
       "id": "rc-newzealand-away",
       "opponent": "New Zealand",
       "homeAway": "away",
       "competition": "Rugby Championship / Bledisloe Cup",
-      "venue": "New Zealand (venue TBC)",
-      "dateUtc": "2026-10-10",
-      "allDay": true,
-      "note": "Kickoff time not yet confirmed."
+      "venue": "Eden Park, Auckland, New Zealand",
+      "dateUtc": "2026-10-10 06:10:00Z",
+      "allDay": false,
+      "note": "KO 7:10pm NZDT."
     },
     {
       "id": "rc-newzealand-home",
@@ -67,9 +67,9 @@
       "homeAway": "home",
       "competition": "Rugby Championship / Bledisloe Cup",
       "venue": "Accor Stadium, Sydney",
-      "dateUtc": "2026-10-17 04:45:00Z",
+      "dateUtc": "2026-10-17 05:00:00Z",
       "allDay": false,
-      "note": "KO 3:45pm AEDT."
+      "note": "KO 4:00pm AEDT."
     },
     {
       "id": "nc-finals-weekend",
